@@ -1,0 +1,36 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 0 auto;
+}
+
+.overlay {
+  display: none;
+}
+
+.modal {
+  margin: 0 auto;
+  padding: 1.5rem 2.75rem;
+  width: 50vw;
+  background-color: royalblue;
+  color: #fff;
+}
+
+.close-modal, .open-modal {
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem 1.25rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.close-modal:hover, .close-modal:focus, .open-modal:focus, .open-modal:hover {
+  background-color: limegreen;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
